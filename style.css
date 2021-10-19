@@ -1,0 +1,341 @@
+.section-top-hero .df-phone {
+  display: none;
+}
+.section-top-hero-pad {
+  display: none;
+}
+.section-top-hero-phone {
+  display: none;
+}
+.main-section-pad {
+  display: none;
+}
+.main-section-phone {
+  display: none;
+}
+
+@media (max-width: 1200px) and (min-width: 768px) {
+  .section-top-hero .bimg {
+    display: none;
+  }
+  .section-top-hero .df {
+    display: none!important;
+  }
+  .section-top-hero-pad {
+    display: block;
+  }
+  .section-top-hero-pad .df-pad {
+    display: block;
+    margin-top: -5px;
+    margin-right: 10px;
+  }
+  .main-section {
+    display: none;
+  }
+  .main-section-pad {
+    display: block;
+  }
+
+  .section-top-hero-pad .header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 13px;
+    padding-bottom: 13px;
+  }
+  .section-top-hero-pad .header-left {
+    padding-left: 30px;
+  }
+  .section-top-hero-pad .header-left-img {
+    height: 21px;
+  }
+  .header-nav-hamburger {
+    cursor: pointer;
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 21px;
+    z-index: 100;
+    margin-right: 20px;
+  }
+  .header-nav-hamburger-line1 {
+    position: absolute;
+    top: 0%;
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #222;
+    transform: translate(0, -50%);
+    border-radius: 10px;
+    transition: top 0.2s, transform 0.2s, opacity 0.3s;
+  }
+  .header-nav-hamburger-line2 {
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #222;
+    transform: translate(0, -50%);
+    border-radius: 10px;
+    transition: top 0.2s, transform 0.2s, opacity 0.3s;
+  }
+  .header-nav-hamburger-line3 {
+    position: absolute;
+    top: 100%;
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #222;
+    transform: translate(0, -50%);
+    border-radius: 10px;
+    transition: top 0.2s, transform 0.2s, opacity 0.3s;
+  }
+  .section-top-hero-pad .bimg-pad {
+    background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/top-hero.png);
+    height: 570px;
+    background-position: right;
+    background-size: cover;
+    padding-bottom: 28px;
+  }
+  .section-top-hero-pad .img {
+    margin-top: 21px;
+    margin-left: 20px;
+    width: 154px;
+    height: 154px;
+  }
+  .section-top-hero-pad .bimg-pad .left {
+    text-align: left;
+    margin-left: 50px;
+  }
+  .section-top-hero-pad .potepancamp {
+    height: 37px;
+    margin-top: 10px;
+  }
+  .section-top-hero-pad .size {
+    font-size: 19px;
+    font-weight: bold;
+    margin-bottom: 49px;
+    margin-top: 25px;
+    line-height: 32px;
+  }
+  .section-top-hero-pad .orange {
+    color: orange;
+  }
+  .section-top-hero-pad .counseling-bottom {
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 22px 95px;
+  }
+  .section-top-hero-pad .text {
+    font-size: 10px;
+    margin: 150px 50px 0px;
+    background-color: rgba(255, 255, 255, .3);
+    padding: 5px;
+  }
+
+  .main-section-pad {
+    background-color: orange;
+    padding: 45px 50px;
+  }
+  .main-section-pad .potepancamptoha {
+    margin: -40px 0px 0px;
+    color: white;
+  }
+  .main-section-pad .text {
+    font-size: 45px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  .main-section-pad .size {
+    font-size: 36px;
+  }
+  .main-section-pad .flex {
+    font-size: 14px;
+    text-align: left;
+  }
+  .main-section-pad .flow {
+    display: block;
+    text-decoration: none;
+    color: orange;
+    background-color: white;
+    border-radius: 50px;
+    text-align: center;
+    width: 250px;
+    height: 56px;
+    padding-top: 4px;
+    margin: 45px auto 0px;
+  }
+  .main-section-pad .bold {
+    font-weight: bold;
+    font-size: 19px;
+  }
+  .main-section-pad .link-button {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 767px) {
+  .section-top-hero .bimg {
+    display: none;
+  }
+  .section-top-hero .df {
+    display: none!important;
+  }
+  .section-top-hero-phone {
+    display: block;
+  }
+  .section-top-hero-phone .df-phone {
+    display: block;
+    margin-top: -5px;
+    margin-right: 10px;
+  }
+  .main-section {
+    display: none;
+  }
+  .main-section-phone {
+    display: block;
+  }
+
+  .section-top-hero-phone .header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .section-top-hero-phone .header-left {
+    padding-left: 15px;
+  }
+  .section-top-hero-phone .header-left-img {
+    height: 18px;
+  }
+  .header-nav-hamburger {
+    cursor: pointer;
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 21px;
+    z-index: 100;
+  }
+  .header-nav-hamburger-line1 {
+    position: absolute;
+    top: 0%;
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #222;
+    transform: translate(0, -50%);
+    border-radius: 10px;
+    transition: top 0.2s, transform 0.2s, opacity 0.3s;
+  }
+  .header-nav-hamburger-line2 {
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #222;
+    transform: translate(0, -50%);
+    border-radius: 10px;
+    transition: top 0.2s, transform 0.2s, opacity 0.3s;
+  }
+  .header-nav-hamburger-line3 {
+    position: absolute;
+    top: 100%;
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #222;
+    transform: translate(0, -50%);
+    border-radius: 10px;
+    transition: top 0.2s, transform 0.2s, opacity 0.3s;
+  }
+  .section-top-hero-phone .bimg-phone {
+    background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/top-hero-sp.png);
+    height: 100%;
+    background-position: right;
+    background-size: cover;
+    padding-bottom: 12px;
+  }
+  .section-top-hero-phone .img {
+    margin-top: 160px;
+    margin-left: 35px;
+    width: 88px;
+    height: 88px;
+  }
+  .section-top-hero-phone .bimg-phone .center {
+    text-align: center;
+  }
+  .section-top-hero-phone .potepancamp {
+    height: 26px;
+    margin-top: 10px;
+  }
+  .section-top-hero-phone .size {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 36px;
+    margin-top: 17px;
+    line-height: 25px;
+  }
+  .section-top-hero-phone .orange {
+    color: orange;
+  }
+  .section-top-hero-phone .counseling-bottom {
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    width: 200px;
+    padding: 20px 50px;
+  }
+  .section-top-hero-phone .text {
+    font-size: 10px;
+    margin: 40px 13px 0px;
+    background-color: rgba(255, 255, 255, .3);
+    padding: 5px;
+  }
+
+  .main-section-phone {
+    background-color: orange;
+    padding: 30px 20px;
+  }
+  .main-section-phone .flex-box {
+    text-align: center;
+  }
+  .main-section-phone .potepancamptoha {
+    margin: -20px 0px 0px;
+    color: white;
+  }
+  .main-section-phone .text {
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  .main-section-phone .size {
+    font-size: 24px;
+  }
+  .main-section-phone .flex {
+    font-size: 14px;
+    text-align: left;
+  }
+  .main-section-phone .flow {
+    display: block;
+    text-decoration: none;
+    color: orange;
+    background-color: white;
+    border-radius: 50px;
+    text-align: center;
+    width: 250px;
+    height: 56px;
+    padding-top: 4px;
+    margin: 60px auto 0px;
+  }
+  .main-section-phone .bold {
+    font-weight: bold;
+    font-size: 19px;
+  }
+  .main-section-phone .link-button {
+    font-size: 13px;
+  }
+}
